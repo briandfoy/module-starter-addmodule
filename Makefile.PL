@@ -12,8 +12,8 @@ WriteMakefile(
 	'AUTHOR'       => 'brian d foy <bdfoy@cpan.org>',
 	
 	'PREREQ_PM'    => { 
-		'Test::More' => '0',
 		'Distribution::Guess::BuildSystem' => '0',
+		'Test::More' => '0',
 		'parent' => '0',
 		},
 
