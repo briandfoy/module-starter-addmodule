@@ -18,7 +18,7 @@ BEGIN {
 
 use Cwd;
 
-$VERSION = '0.10_02';
+$VERSION = '0.10_03';
 
 =head1 NAME
 
