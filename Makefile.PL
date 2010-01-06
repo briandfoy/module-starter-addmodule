@@ -13,8 +13,11 @@ WriteMakefile(
 	
 	'PREREQ_PM'    => { 
 		'Distribution::Guess::BuildSystem' => '0',
-		'Test::More' => '0',
-		'parent' => '0',
+		'Module::Starter::Simple'          => '0',
+		'Module::Starter::Smart'           => '0',
+		'Module::Starter'                  => '0',
+		'parent'                           => '0',
+		'Test::More'                       => '0',
 		},
 
 	'PM'           => {

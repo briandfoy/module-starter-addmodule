@@ -12,7 +12,7 @@ use vars qw($VERSION);
 use parent qw(Module::Starter::Smart);
 use Cwd;
 
-$VERSION = '0.10_01';
+$VERSION = '0.10_02';
 
 =head1 NAME
 
