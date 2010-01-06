@@ -10,6 +10,12 @@ use subs qw();
 use vars qw($VERSION);
 
 use parent qw(Module::Starter::Smart);
+
+BEGIN {
+	package Module::Starter::Smart;
+	use parent qw(Module::Starter::Simple);
+	}
+
 use Cwd;
 
 $VERSION = '0.10_02';
@@ -22,18 +28,22 @@ Module::Starter::AddModule - Add a new module to a distribution
 
 	# in the module-starter config
 	
-	plugins: Module::Starter::Simple Module::Starter::Smart Module::Starter::AddModule;
+	plugins: Module::Starter::AddModule;
 	make: /whatever/make/you/like/dmake
 
 =head1 DESCRIPTION
 
-C<Module::Starter::Simple> and C<Module::Starter::Smart> 
-(which relies on C<::Simple>) try to construct the MANIFEST file themselves.
-This is the wrong approach since it doesn't not take into account build
-file subclasses or F<MANIFEST.SKIP>.
+C<Module::Starter::Simple> and C<Module::Starter::Smart> (which relies
+on C<::Simple>) try to construct the MANIFEST file themselves. This is
+the wrong approach since it doesn't not take into account build file
+subclasses or F<MANIFEST.SKIP>.
 
 Once you have the build file, let it do it's job by running its C<manifest>
 target.
+
+Furthermore, C<Module::Starter::Smart> doesn't explicitly inherit from
+C<Module::Starter::Simple>, but this module inserts the inheritance
+relationship for you automatically.
 
 =over 4
 
@@ -59,10 +69,9 @@ sub create_MANIFEST
 	my $dist_dir = $self->basedir;
 	die "The base directory" unless -d $dist_dir;
 	
-	$self->progress( "Creating MANIFEST" );
+	$self->progress( "Regenerating MANIFEST" );
 	
 	my $make = $self->{make} // 'make'; #/
-	$self->progress( "Using make from [$make]" );
 	
 	eval {
 		my $dir = cwd();
