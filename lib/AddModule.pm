@@ -18,7 +18,7 @@ BEGIN {
 
 use Cwd;
 
-$VERSION = '0.10_03';
+$VERSION = '0.10_04';
 
 =head1 NAME
 
@@ -98,6 +98,12 @@ sub create_MANIFEST
 	
 	return 1;
 	}
+
+=item basedir
+
+Return the top-level directory for the distribution.
+
+=cut
 
 sub basedir { $_[0]->{basedir} || '' }
 	
