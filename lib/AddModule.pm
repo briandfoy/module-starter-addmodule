@@ -18,7 +18,7 @@ BEGIN {
 
 use Cwd;
 
-$VERSION = '0.10_04';
+$VERSION = '1.001';
 
 =head1 NAME
 
@@ -109,9 +109,6 @@ sub basedir { $_[0]->{basedir} || '' }
 	
 =back
 
-=head1 TO DO
-
-
 =head1 SEE ALSO
 
 L<Module::Starter::Smart>
@@ -128,7 +125,7 @@ brian d foy, C<< <bdfoy@cpan.org> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2010, brian d foy, All Rights Reserved.
+Copyright (c) 2010-2012, brian d foy, All Rights Reserved.
 
 You may redistribute this under the same terms as Perl itself.
 
