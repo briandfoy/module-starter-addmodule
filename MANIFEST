@@ -4,6 +4,7 @@ lib/AddModule.pm
 LICENSE
 Makefile.PL
 MANIFEST			This list of files
+MYMETA.yml
 README
 t/load.t
 t/pod.t
