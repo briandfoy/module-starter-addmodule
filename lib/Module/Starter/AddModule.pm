@@ -12,13 +12,14 @@ use vars qw($VERSION);
 use parent qw(Module::Starter::Smart);
 
 BEGIN {
-	package Module::Starter::Smart;
+	package # hide package from PAUSE
+		Module::Starter::Smart;
 	use parent qw(Module::Starter::Simple);
 	}
 
 use Cwd;
 
-$VERSION = '1.001';
+$VERSION = '1.002';
 
 =head1 NAME
 
@@ -60,8 +61,7 @@ only matters if you are using F<Makefile.PL>.
 
 =cut
 
-sub create_MANIFEST 
-	{
+sub create_MANIFEST {
     my $self = shift;
 
 	require Distribution::Guess::BuildSystem;
