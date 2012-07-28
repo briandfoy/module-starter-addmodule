@@ -17,11 +17,7 @@ WriteMakefile(
 		'Module::Starter::Smart'           => '0',
 		'Module::Starter'                  => '0',
 		'parent'                           => '0',
-		'Test::More'                       => '0',
-		},
-
-	'PM'           => {
-		'lib/AddModule.pm'         => '$(INST_LIBDIR)/AddModule.pm',
+		'Test::More'                       => '0.95',
 		},
 
 	clean  => { FILES    => q|Module-Starter-AddModule-*| },
