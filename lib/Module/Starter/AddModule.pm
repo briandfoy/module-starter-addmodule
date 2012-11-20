@@ -21,6 +21,8 @@ use Cwd;
 
 $VERSION = '1.002';
 
+=encoding utf8
+
 =head1 NAME
 
 Module::Starter::AddModule - Add a new module to a distribution
