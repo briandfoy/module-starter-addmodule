@@ -1,6 +1,10 @@
 0.10_01 - Tue Jan  5 17:58:25 2010
 	* The initial release
 
+1.03 - Tue Nov 20 02:12:07 2012
+	* Fixed small typo in synopsis
+	* Added encoding to Pod
+
 1.02 - Sat Jul 28 17:36:19 2012
 	* Hide Module::Starter::Smart from PAUSE
 
