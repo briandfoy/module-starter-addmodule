@@ -34,6 +34,10 @@ Module::Starter::AddModule - Add a new module to a distribution
 	plugins: Module::Starter::AddModule
 	make: /whatever/make/you/like/dmake
 
+	# from the command line
+	# the --dist option specifies the dist directory
+	% module-starter --module=Add::This::Module --dist=.
+
 =head1 DESCRIPTION
 
 C<Module::Starter::Simple> and C<Module::Starter::Smart> (which relies
