@@ -1,6 +1,9 @@
 0.10_01 - Tue Jan  5 17:58:25 2010
 	* The initial release
 
+1.05 - Fri Jan  3 13:41:43 2014
+	* Get rid of MYMETA
+
 1.04 - Fri Aug  2 20:43:44 2013
 	* Add an example from the command line (GitHub issue #1)
 
