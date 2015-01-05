@@ -1,19 +1,19 @@
 Revision history for Perl module Module::Starter::AddModule
 
-1.05 - Fri Jan  3 13:41:43 2014
+1.005 - Fri Jan  3 13:41:43 2014
 	* Get rid of MYMETA
 
-1.04 - Fri Aug  2 20:43:44 2013
+1.004 - Fri Aug  2 20:43:44 2013
 	* Add an example from the command line (GitHub issue #1)
 
-1.03 - Tue Nov 20 02:12:07 2012
+1.003 - Tue Nov 20 02:12:07 2012
 	* Fixed small typo in synopsis
 	* Added encoding to Pod
 
-1.02 - Sat Jul 28 17:36:19 2012
+1.002 - Sat Jul 28 17:36:19 2012
 	* Hide Module::Starter::Smart from PAUSE
 
-1.01 - Tue May  8 20:37:50 2012
+1.001 - Tue May  8 20:37:50 2012
 	* First stable release
 
 0.10_04 - Sun Nov  6 10:17:55 2011
