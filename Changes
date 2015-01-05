@@ -1,5 +1,4 @@
-0.10_01 - Tue Jan  5 17:58:25 2010
-	* The initial release
+# Changes to Module::Starter::AddModule
 
 1.05 - Fri Jan  3 13:41:43 2014
 	* Get rid of MYMETA
@@ -23,4 +22,8 @@
 0.10_02 - Wed Jan  6 11:37:02 2010
 	* I really need to fix my local Test::Prereq so I catch
 	those prereqs :)
+
+0.10_01 - Tue Jan  5 17:58:25 2010
+	* The initial release
+
 
