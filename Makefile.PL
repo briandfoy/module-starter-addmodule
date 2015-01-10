@@ -52,7 +52,7 @@ my %WriteMakefile = (
 			},
 		},
 	
-	clean  => { FILES    => q|Module-Starter-AddModule-*| },
+	clean => { FILES => "$dist-*" },
 	);
 
 sub arguments { \%WriteMakefile }
