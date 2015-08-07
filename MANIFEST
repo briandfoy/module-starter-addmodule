@@ -1,5 +1,6 @@
 Changes
 examples/placeholder.pl
+INSTALL.SKIP
 lib/Module/Starter/AddModule.pm
 LICENSE
 Makefile.PL
