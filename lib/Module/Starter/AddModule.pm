@@ -19,7 +19,7 @@ BEGIN {
 
 use Cwd;
 
-$VERSION = '1.005';
+$VERSION = '1.006';
 
 =encoding utf8
 
