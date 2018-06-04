@@ -123,7 +123,7 @@ L<Module::Starter::Smart>
 
 This source is in Github:
 
-	http://github.com/briandfoy/module-starter-addmodule/
+	https://github.com/briandfoy/module-starter-addmodule/
 
 =head1 AUTHOR
 
