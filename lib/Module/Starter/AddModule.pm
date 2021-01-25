@@ -91,7 +91,7 @@ sub create_MANIFEST {
 		if( $guesser->uses_module_build ) {
 			$self->verbose( "Detected Module::Build" );
 			system( $^X, 'Build.PL' );
-			system( './Build', 'manifest' );
+			system( $^X, 'Build', 'manifest' );
 			}
 		elsif( $guesser->uses_makemaker or $guesser->uses_module_install ) {
 			$self->verbose( "Detected ExtUtils::Makemaker or Module::Install" );
